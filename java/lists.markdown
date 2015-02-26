@@ -1,4 +1,5 @@
 
-__initialize an ArrayList__  
+__initialize an ArrayList__
+
     List<String> foo = Arrays.asList("john", "tony", "joe", "dave", "pete");
 
