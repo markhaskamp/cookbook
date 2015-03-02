@@ -15,12 +15,10 @@ Use a compination of _pattern.matcher_, _pattern.find_, _pattern.group_ for rege
     Pattern p = Pattern.compile("a.");
     p.matcher();
     while (p.find()) {
-      System.out.println(p.group());
+      System.out.println(p.group());  // "ay" // then "ad" // then "aq"
     }
 
-    // "ay"
-    // "ad"
-    // "aq"
+    
 
 
 _group(0)_ is the entire matched string
