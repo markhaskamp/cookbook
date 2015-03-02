@@ -9,7 +9,7 @@ _pattern.matches_ requires a regex pattern that matches the entire string
     p2.matches();  // => __true__  
 
 
-Use a compination of _pattern.matcher_, _pattern.find_, _pattern.group_ for regex groups
+Use a combination of _pattern.matcher_, _pattern.find_, _pattern.group_ for regex groups
 
     String s = "always read the plaque";
     Pattern p = Pattern.compile("a.");
