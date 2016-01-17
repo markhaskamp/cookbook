@@ -1,4 +1,4 @@
-package slurp
+package files
 
 import (
   "io/ioutil"
